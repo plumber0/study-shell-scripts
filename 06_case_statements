@@ -1,0 +1,12 @@
+#!/bin/bash
+
+case ${1,,} in
+	rhcsa0 | admin)
+		echo "you are the boss here!"
+		;;
+	help)
+		echo "just enter user name"
+		;;
+	*)
+		echo "hello theree enter username"
+esac

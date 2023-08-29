@@ -1,0 +1,6 @@
+#!/bin/bash
+
+myname=seungwoo
+
+echo hello my name is $myname
+

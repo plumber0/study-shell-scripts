@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo one two three > testfile
+
+awk '{print $1}' testfile
+awk '{print $2}' testfile
+
+
+echo one,two,three > testcsv.csv
+
+awk -F, '{print $1}' testcsv.csv

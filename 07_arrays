@@ -1,0 +1,7 @@
+#!/bin/bash
+my_first_list=(one two three four five)
+
+echo ${my_first_list[@]}
+echo ${my_first_list[0]}
+
+
